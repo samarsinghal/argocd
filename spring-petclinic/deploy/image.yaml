@@ -1,0 +1,15 @@
+apiVersion: kpack.io/v1alpha1
+kind: Image
+metadata:
+  name: spring-petclinic
+  namespace: tbs-demo
+spec:
+  tag: index.docker.io/samarsinghal/spring-petclinic
+  serviceAccount: default
+  builder:
+    name: demo-builder
+    kind: Builder
+  source:
+    git:
+      url: https://github.com/samarsinghal/spring-petclinic.git
+      revision: main
