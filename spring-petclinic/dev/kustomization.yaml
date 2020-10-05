@@ -8,6 +8,7 @@ patchesStrategicMerge:
 - ./deployment-patch.yaml
 
 commonLabels:
-  labelKey1: "labelValue1"
+  revision: "labelValue1"
+  # app: spring-petclinic
 
 
