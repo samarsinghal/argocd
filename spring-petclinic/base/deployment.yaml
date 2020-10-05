@@ -15,7 +15,7 @@ spec:
         app: spring-petclinic
     spec:
       containers:
-      - image: samarsinghal/spring-petclinic:f27903964ba8e31ad89c31379e300a35fe1632a3
+      - image: samarsinghal/spring-petclinic:c4efc1036954d57fcd391ab4053595b1adef65e1
         name: spring-petclinic
         ports:
         - containerPort: 8080
