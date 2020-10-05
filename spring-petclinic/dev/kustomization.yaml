@@ -1,14 +1,12 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
-bases:
-- ../base
 
 patchesStrategicMerge:
 - ./deployment-patch.yaml
 
 commonLabels:
-  revision: "labelValue1"
-  # app: spring-petclinic
-
-
+  revision: labelValue1
+  sam: sam
+resources:
+- ../base
