@@ -2,8 +2,16 @@ apiVersion: apps/v1beta2
 kind: Deployment
 metadata:
   name: spring-petclinic
+  namespace: tbs-demo
 spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: spring-petclinic
   template:
+    metadata:
+      labels:
+        app: spring-petclinic
     spec:
       containers:
       - name: spring-petclinic

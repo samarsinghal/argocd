@@ -8,5 +8,5 @@ patchesStrategicMerge:
 - ./deployment-patch.yaml
 
 images:
-- name: samarsinghal/spring-petclinic
+- name: samarsinghal/petclinic
   newTag: latest
