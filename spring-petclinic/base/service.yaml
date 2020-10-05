@@ -5,7 +5,7 @@ metadata:
   namespace: tbs-demo
 spec:
   ports:
-  - port: 3333
+  - port: 8080
     targetPort: 8080
   selector:
     app: spring-petclinic
