@@ -7,8 +7,14 @@ bases:
 patchesStrategicMerge:
 - ./deployment-patch.yaml
 
+commonAnnotations:
+  revision: sam
+
 # commonLabels:
-#   revision: "labelValue1"
+#   revision: sam
 #   app: spring-petclinic
+#   sam: sam
 
-
+# images:
+#   - name: spring-petclinic
+#     newName: samarsinghal/spring-petclinic:latest

@@ -4,6 +4,9 @@ metadata:
   name: spring-petclinic
 spec:
   template:
+    metadata:
+      labels:
+        app: spring-petclinic
     spec:
       containers:
       - name: spring-petclinic
