@@ -15,9 +15,7 @@ spec:
     spec:
       containers:
       - image: samarsinghal/spring-petclinic:latest
+        imagePullPolicy: Always
         name: spring-petclinic
         ports:
         - containerPort: 8080
-        env:
-        - name: revision
-          value: tmp
