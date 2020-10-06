@@ -6,8 +6,5 @@ resources:
 - ./service.yaml
 
 commonAnnotations:
-    revision: sam
-
-# commonLabels:
-#     revision: labelValue1
-#     app: spring-petclinic
+  revision: sam
+  revision-0c1ffc292fec5764512dc8d9a20285eb6b1a5380: 0c1ffc292fec5764512dc8d9a20285eb6b1a5380
