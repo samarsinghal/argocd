@@ -5,6 +5,9 @@ resources:
 - ./deployment.yaml
 - ./service.yaml
 
+commonAnnotations:
+    revision: sam
+
 # commonLabels:
 #     revision: labelValue1
 #     app: spring-petclinic
