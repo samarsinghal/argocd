@@ -4,8 +4,8 @@ kind: Kustomization
 bases:
 - ../base
 
-# patchesStrategicMerge:
-# - ./deployment-patch.yaml
+patchesStrategicMerge:
+- ./deployment-patch.yaml
 
 commonAnnotations:
   revision: sam
