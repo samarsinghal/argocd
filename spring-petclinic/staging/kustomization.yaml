@@ -1,0 +1,17 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+- ../base
+
+commonAnnotations:
+  revision: sam
+  revision-08184fcb8c72860d13a797eb1a81106e684eecc1: 08184fcb8c72860d13a797eb1a81106e684eecc1
+
+namePrefix: staging-
+
+namespace: staging
+
+images:
+  - name: spring-petclinic
+    newName: samarsinghal/spring-petclinic:latest

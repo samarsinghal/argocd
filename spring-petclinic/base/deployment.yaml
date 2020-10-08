@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: spring-petclinic
-#   namespace: tbs-demo
 spec:
   replicas: 1
   selector:
