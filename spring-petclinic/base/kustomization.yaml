@@ -5,6 +5,3 @@ resources:
 - ./deployment.yaml
 - ./service.yaml
 
-# commonAnnotations:
-#   revision-63ca109017578b9a0df4072e572e79f2f1fdb761: 63ca109017578b9a0df4072e572e79f2f1fdb761
-#   revision-abfe054ed713808ca87d9d0363dd8ed60c5608a7: abfe054ed713808ca87d9d0363dd8ed60c5608a7
