@@ -16,6 +16,8 @@ commonAnnotations:
 
 namePrefix: dev-
 
+namespace: dev
+
 # commonLabels:
 #   revision: sam
 #   app: spring-petclinic
