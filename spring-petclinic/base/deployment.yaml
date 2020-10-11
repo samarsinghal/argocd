@@ -12,6 +12,8 @@ spec:
       labels:
         app: spring-petclinic
     spec:
+      imagePullSecrets:
+      - name: app-registry-credentials
       containers:
       - image: library/spring-petclinic:latest
         imagePullPolicy: Always
