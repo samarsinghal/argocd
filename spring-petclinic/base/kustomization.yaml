@@ -4,4 +4,5 @@ kind: Kustomization
 resources:
 - ./deployment.yaml
 - ./service.yaml
-
+commonAnnotations:
+  revision-08184fcb8c72860d13a797eb1a81106e684eecc1: 08184fcb8c72860d13a797eb1a81106e684eecc1
