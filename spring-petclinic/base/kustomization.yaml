@@ -6,3 +6,4 @@ resources:
 - ./service.yaml
 commonAnnotations:
   revision-08184fcb8c72860d13a797eb1a81106e684eecc1: 08184fcb8c72860d13a797eb1a81106e684eecc1
+  revision-671194d12eb6151796725d74a22cac4524fe0c22: 671194d12eb6151796725d74a22cac4524fe0c22
