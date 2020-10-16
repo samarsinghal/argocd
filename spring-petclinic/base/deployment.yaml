@@ -15,7 +15,7 @@ spec:
       imagePullSecrets:
       - name: app-registry-credentials
       containers:
-      - image: harbor.poc.add2cloud.com/library/spring-petclinic
+      - image: harbor.poc.add2cloud.com/library/spring-petclinic:sha256
         imagePullPolicy: Always
         name: spring-petclinic
         ports:
