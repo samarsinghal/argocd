@@ -4,8 +4,6 @@ kind: Kustomization
 resources:
 - ./deployment.yaml
 - ./service.yaml
-# commonAnnotations:
-#   revision-938c4f523ca3cd14740c429a1a62ce57af95e93b: 938c4f523ca3cd14740c429a1a62ce57af95e93b
-#   revision-08184fcb8c72860d13a797eb1a81106e684eecc1: 08184fcb8c72860d13a797eb1a81106e684eecc1
-#   revision-671194d12eb6151796725d74a22cac4524fe0c22: 671194d12eb6151796725d74a22cac4524fe0c22
-#   revision-c25aa5e219edbd5ad5c8216bcaf9765760166974: c25aa5e219edbd5ad5c8216bcaf9765760166974
+images:
+- name: harbor.poc.add2cloud.com/library/spring-petclinic:sha256
+  newTag: 394eae210a9e02a99ce1f77dd4349ac3a10738b6633ab0a84395c4ba5f12a289
