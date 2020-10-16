@@ -6,3 +6,6 @@ resources:
     - staging
     - prod
 
+images:
+  - name: harbor.poc.add2cloud.com/library/spring-petclinic
+    digest: sha256:32a5d4349549245d6293c41311750bf297eecd4a7a5ea786e59d83923d51826e
