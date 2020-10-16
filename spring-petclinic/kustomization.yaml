@@ -7,5 +7,5 @@ resources:
 - prod
 
 images:
-- name: harbor.poc.add2cloud.com/library/spring-petclinic:sha256
-  newTag: a63e45dda60e94ea6e539beac3a885e7e88bedb2e75eed7242c832da0ddac96b
+- name: harbor.poc.add2cloud.com/library/spring-petclinic
+  digest: sha256:a63e45dda60e94ea6e539beac3a885e7e88bedb2e75eed7242c832da0ddac96b
