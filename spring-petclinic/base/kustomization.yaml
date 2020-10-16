@@ -8,5 +8,3 @@ resources:
 images:
 - digest: sha256:394eae210a9e02a99ce1f77dd4349ac3a10738b6633ab0a84395c4ba5f12a289
   name: harbor.poc.add2cloud.com/library/spring-petclinic
-- digest: sha256:c1b8e3d5aa33af573cb7cfbd18335951d0c93ba3e49bc8d41e3e9133a1e633a8
-  name: 'harbor.poc.add2cloud.com/library/spring-petclinic:'
