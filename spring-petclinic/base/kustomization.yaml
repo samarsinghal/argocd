@@ -6,5 +6,5 @@ resources:
 - ./service.yaml
 
 images:
-- digest: sha256:71cedfdd567c05013fb2ed10f73a9fa6641afb829f90a54c34ee10e402a5dc36
+- digest: sha256:09c4b9cc2061b401f2b5b9fe630ab0c2b8a2b430bed6bbb29b5036c33dbe4435
   name: harbor.poc.add2cloud.com/library/spring-petclinic
